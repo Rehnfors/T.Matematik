@@ -49,7 +49,7 @@ $y_1 = 18,897966 E$
 <br>  
 
 $$ d = \sqrt{(59.748037² – 59.746846²) + (18.897966² – 18.896561²)}$$ 
-$$d = 0.442063 grader$$  
+$$d = 0.442063\,grader$$  
 
 **För att översätta från grader till meter:**  
 
@@ -66,11 +66,11 @@ $$T =  2min, 23s$$
 **För att beräkna hastigheten:**  
 
 $$2min*60s = 120s + 23s$$
-$$49,21m / 143 s = 0,344m/s$$
+$$\frac{49,21m}{143s} s = 0,344m/s$$
 
 **Klockan visar hastighet i km/h.**
 
-$$(3600 s) / (1000m) = 3,6$$
+$$\frac{3600 s}{1000m} = 3,6$$
 $$hastigheten = 0,344\,m/s \cdot 3,6 = 1,2384 km/h$$
 
 Om distansen inte är ett rakt streck, kan flera distanser adderas för att utgöra en runda.  
@@ -87,7 +87,7 @@ $$Batteritid = \frac{kapacitet(mAh)}{genomsnittlig\,förbrukning(mWh)}$$
 
 Om vi mäter spänningen på ett fulladdat batteri kan vi se att spänningen är 3.7V.  
 
-$$Batteriets\,kapacacitet\,i\,Wh = (300mAh\cdot 3.7V)/1000 = 1.11Wh$$  
+$$Batteriets\,kapacacitet\,i\,Wh = \frac{300mAh\cdot 3.7V}{1000} = 1.11Wh$$  
 Efter några timmars användning vill man kunna se hur mycket batteri klockan har kvar.  
 En ny spänningsmätning visar 3.2V.
 $$\frac{300mAh \cdot 3.2V}{1000} = 0.96 Wh$$
@@ -95,4 +95,24 @@ $$\frac{300mAh \cdot 3.2V}{1000} = 0.96 Wh$$
 $$\frac{0.96Wh}{1.11Wh} = 0,8649$$
 Ca 86% av batteriets laddning återstår.
 
-programmeringslösning i "batterypercentage.cpp"
+programmeringslösning i "batterypercentage.cpp"  
+
+---
+## Föra statistik på stegtal
+
+Det sägs att en människa bör gå ungefär 10 000 steg om dagen för att ligga på en hälsosam nivå.  
+Kanske är det även därför smartklockor brukar sätta det som ett dagligt mål.  
+Om man analyserar det begreppet, så är kanske det viktigaste av allt att man går 10 000 steg om dagen i *snitt*.  
+En smartklocka kan givetvis hjälpa till att hålla koll på ditt stegsnitt. Den dividerar helt enkelt alla stegtal för de antal dagar man vill göra ett snitt på.  
+
+## Till exempel:
+  
+  Måndag-söndag vecka 1:
+  $$\frac{(10323 + 10698 + 9586 + 11349+ 12548 + 5369 + 6745)}{7\,dagar} = 9516,9\,steg\,om\,dagen\,i\,snitt$$  
+  
+  Måndag-söndag vecka 2:  
+  $$\frac{(11698 + 12568 + 10581 + 13456 + 10745 + 8362 + 7591)}{7\,dagar} = 10714,9\,steg\,om\,dagen\,i\,snitt$$ 
+
+  Smartklockan är givetvis hjälpsam och håller koll på om personens stegsnitt trendar åt rätt eller fel håll. Där ett postivt tal är en trend åt rätt håll.
+  $$Vecka\,2\,-\,Vecka\,1\,=\,1198
+
