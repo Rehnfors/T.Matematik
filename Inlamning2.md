@@ -105,7 +105,7 @@ Kanske är det även därför smartklockor brukar sätta det som ett dagligt må
 Om man analyserar det begreppet, så är kanske det viktigaste av allt att man går 10 000 steg om dagen i *snitt*.  
 En smartklocka kan givetvis hjälpa till att hålla koll på ditt stegsnitt. Den dividerar helt enkelt alla stegtal för de antal dagar man vill göra ett snitt på.  
 
-## Till exempel:
+**Till exempel: **
   
   Måndag-söndag vecka 1:
   $$\frac{(10323 + 10698 + 9586 + 11349+ 12548 + 5369 + 6745)}{7\,dagar} = 9516,9\,steg\,om\,dagen\,i\,snitt$$  
