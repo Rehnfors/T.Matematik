@@ -114,5 +114,5 @@ En smartklocka kan givetvis hjälpa till att hålla koll på ditt stegsnitt. Den
   $$\frac{(11698 + 12568 + 10581 + 13456 + 10745 + 8362 + 7591)}{7\,dagar} = 10714,9\,steg\,om\,dagen\,i\,snitt$$ 
 
   Smartklockan är givetvis hjälpsam och håller koll på om personens stegsnitt trendar åt rätt eller fel håll. Där ett postivt tal är en trend åt rätt håll.
-  $$Vecka\,2\,-\,Vecka\,1\,=\,1198
+  $$Vecka\,2\,-\,Vecka\,1\,=\,1198$$
 
